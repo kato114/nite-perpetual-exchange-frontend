@@ -1,0 +1,95 @@
+.modal-trade-confirm .ia-DxTe {
+  margin: 10px;
+  position: relative;
+  width: calc(100% - 20px);
+  z-index: 1000;
+  background-color: rgb(41, 41, 44);
+  max-height: calc(100% - 20px);
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+  border-radius: 34px;
+  border: 3px solid #17dc22;
+}
+.modal-trade-confirm .ia-DxTe.sell {
+  border: 3px solid #fa5c35;
+}
+
+.modal-trade-confirm .eqDBwb {
+  border-top: 1px dashed rgb(64, 64, 64);
+  margin: 0px 20px;
+}
+.modal-trade-confirm .fYAHzI {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: var(--font-size-md);
+}
+.modal-trade-confirm .btrGPJ {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.modal-trade-confirm .iijVdv {
+  background-image: url("../../../public/assets/image/icon/ic-x-green.svg");
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 24px;
+  width: 24px;
+  opacity: 0.75;
+  cursor: pointer;
+}
+.modal-trade-confirm .iijVdv.sell {
+  background-image: url("../../../public/assets/image/icon/ic-x-red.svg");
+}
+.modal-trade-confirm .dIxMqX {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px 20px;
+  padding: 0px 18px;
+  border-radius: 10px;
+  background-color: rgba(22, 22, 24, 0.44);
+}
+.modal-trade-confirm .fVmVPE {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 15px 0px;
+}
+.modal-trade-confirm .fVmVPE:not(:last-child) {
+  border-bottom: 1px dashed #202649;
+}
+.modal-trade-confirm .cVnyRH {
+  display: flex;
+  padding: 0px;
+  flex: 1 1 0%;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+}
+.modal-trade-confirm .cVnyRH img {
+  margin-right: 12px;
+  width: 40px;
+}
+.modal-trade-confirm .fVmVPE .tooltip {
+  margin-left: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .modal-trade-confirm .ia-DxTe {
+    margin: 0px auto;
+    max-width: 420px;
+    border-radius: 34px;
+    max-height: 100%;
+    display: table;
+    flex-direction: row;
+  }
+}

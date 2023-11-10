@@ -1,0 +1,23 @@
+.gPaEhc {
+  display: "block";
+  height: 100%;
+  grid-template-rows: 72px auto calc(100% - 522px);
+  grid-template-columns: auto;
+  grid-template-areas:
+    "market"
+    "tradingView"
+    "placeOrder"
+    "position";
+}
+
+@media screen and (min-width: 992px) {
+  .gPaEhc {
+  display: grid;
+    grid-template-columns: calc(100% - 400px) 400px;
+    grid-template-areas:
+      "market placeOrder"
+      "tradingView placeOrder"
+      "position placeOrder";
+  }
+
+}

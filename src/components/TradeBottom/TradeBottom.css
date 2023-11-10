@@ -1,0 +1,207 @@
+.hJfobJ {
+  grid-area: position / position / position / position;
+  width: 100%;
+  margin-bottom: 16px;
+  display: flex;
+  border: 1px solid #202649;
+  border-radius: 5px;
+}
+thead tr th {
+  padding: 5px;
+}
+thead {
+  background: #111111;
+  font-size: 15px;
+}
+.kHQpEn {
+  flex: 1 1 0%;
+  border-radius: 5px;
+}
+.gQyuGT {
+  margin-top: 3px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 16px 18px;
+  border-bottom: 1px solid #202649;
+}
+.uXULR {
+  font-size: 12px;
+  color: rgb(185, 185, 185);
+  cursor: pointer;
+}
+.dAcix {
+  font-size: 12px;
+  cursor: pointer;
+}
+.gQyuGT > * + * {
+  margin-left: 38px;
+}
+.cgAIVU {
+  display: flex;
+  flex-direction: column;
+}
+.btCOwI {
+  display: flex;
+  flex-direction: column;
+  padding: 11px 10px 10px 14px;
+  background-color: rgba(216, 216, 216, 0.03);
+  border-bottom: 1px solid #202649;
+}
+.btCOwI .filter {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.bxbugt {
+  font-size: 13px;
+  color: rgb(185, 185, 185);
+  cursor: pointer;
+}
+.bxbugt + div {
+  margin-left: 22px;
+}
+.btCOwI .date {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 12px;
+}
+.hYkgVR {
+  padding: 0px 6px;
+}
+.react-datepicker-wrapper {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+.react-datepicker__input-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.hYkgVR input {
+  background: transparent;
+  border: none;
+  color: rgb(216, 216, 216);
+  max-width: 90px;
+}
+.GEhox {
+  background: transparent;
+  color: rgb(185, 185, 185);
+  padding: 0px;
+  line-height: 1;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.hBTfxi {
+  color: #ffd71e;
+  padding-right: 12px;
+  border-right: 1px solid #202649;
+}
+.hCqDqS {
+  padding-left: 12px;
+  cursor: pointer;
+}
+.hCqDqS svg {
+  width: 14px;
+}
+.hCqDqS svg path {
+  fill: rgb(185, 185, 185);
+}
+.hCqDqS:hover svg path {
+  fill: #ffd71e;
+}
+.ipvYdG {
+  overflow: auto;
+  padding: 10px;
+}
+.jbnRpY {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 84px 0px;
+}
+.jbnRpY img {
+  height: 60px;
+}
+.fUbBdH {
+  font-size: 16px;
+  line-height: 25px;
+  height: 25px;
+  margin: 16px 0px 9px;
+}
+
+@media screen and (min-width: 992px) {
+  .hJfobJ {
+    margin-bottom: 0px;
+    width: auto;
+    margin: 7px;
+    border-radius: 5px;
+    border: 1px solid #202649;
+  }
+  .kHQpEn {
+    background: #0c0c12;
+  }
+  .gQyuGT {
+    padding: 7px 14px 12px;
+  }
+  .btCOwI {
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .btCOwI .date {
+    margin-top: 0px;
+  }
+  .hYkgVR input {
+    max-width: 100px;
+  }
+  .swap-head {
+    display: grid;
+  }
+}
+
+.box.swap-item {
+  margin-bottom: 7px;
+  width: 99%;
+}
+
+.trades-table {
+  max-height: 250px;
+  overflow: auto;
+  min-height: 250px;
+}
+.action {
+  cursor: pointer;
+  color: yellow;
+}
+
+.Exchange-info-row {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 0.8rem;
+  margin-bottom: 0.465rem;
+}
+.strong {
+  font-weight: 700;
+}
+.align-right {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Exchange-info-label {
+  opacity: 0.7;
+  margin-right: 0.8rem;
+}

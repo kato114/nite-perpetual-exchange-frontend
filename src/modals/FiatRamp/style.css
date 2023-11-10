@@ -1,0 +1,83 @@
+.moda-fiatramp .ia-DxTe {
+  margin: 10px;
+  position: relative;
+  width: calc(100% - 20px);
+  z-index: 1000;
+  background-color: rgb(41, 41, 44);
+  border-radius: 10px;
+  max-height: calc(100% - 20px);
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+}
+.moda-fiatramp .fYAHzI {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 14px 20px;
+  font-size: var(--font-size-md);
+  font-weight: 600;
+}
+.moda-fiatramp .btrGPJ {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.moda-fiatramp .iijVdv {
+  background-image: url("../../../public/assets/image/icon/ic-x.svg");
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 24px;
+  width: 24px;
+  margin-right: -6px;
+  opacity: 0.75;
+  cursor: pointer;
+}
+.moda-fiatramp .dIxMqX {
+  position: relative;
+  margin: 0px 20px 20px;
+  padding: 0px 18px;
+  border-radius: 10px;
+  background-color: rgba(22, 22, 24, 0.44);
+}
+.moda-fiatramp .fVmVPEFiat {
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 15px 0px;
+}
+.moda-fiatramp .fVmVPEFiat:not(:last-child) {
+  border-bottom: 1px dashed #202649;
+}
+.moda-fiatramp .cVnyRH {
+  display: flex;
+  padding: 0px;
+  flex: 1 1 0%;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+}
+.cVnyRH img {
+  margin-right: 12px;
+  width: 40px;
+}
+.fVmVPEFiat .tooltip {
+  margin-left: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .ia-DxTe {
+    margin: 0px auto;
+    max-width: 420px;
+    border-radius: 10px;
+    max-height: 100%;
+    display: table;
+    flex-direction: row;
+  }
+}

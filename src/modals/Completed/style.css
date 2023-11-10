@@ -1,0 +1,107 @@
+.modal-completed .iconConfirm {
+  width: 96px;
+  margin: auto;
+}
+.modal-completed .titleCompleted {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+.modal-completed .contentsCompleted {
+  opacity: 0.5;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.modal-completed .visitLink {
+  color: #ffd71e;
+  text-align: center;
+}
+.modal-completed .ia-DxTe {
+  margin: 10px;
+  position: relative;
+  width: calc(100% - 20px);
+  z-index: 1000;
+  background-color: rgb(41, 41, 44);
+  border-radius: 10px;
+  max-height: calc(100% - 20px);
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+}
+.modal-completed .eqDBwb {
+  border-top: 1px dashed rgb(64, 64, 64);
+  margin: 0px 20px;
+}
+.modal-completed .fYAHzI {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 14px 20px;
+  font-size: var(--font-size-md);
+  font-weight: 600;
+}
+.modal-completed .btrGPJ {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.modal-completed .iijVdv {
+  background-image: url("../../../public/assets/image/icon/ic-x.svg");
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 24px;
+  width: 24px;
+  opacity: 0.75;
+  cursor: pointer;
+}
+.modal-completed .dIxMqX {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px 20px;
+  padding: 0px 18px;
+  border-radius: 10px;
+  background-color: rgba(22, 22, 24, 0.44);
+}
+.modal-completed .fVmVPE {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 15px 0px;
+}
+.modal-completed .fVmVPE:not(:last-child) {
+  border-bottom: 1px dashed #202649;
+}
+.modal-completed .cVnyRH {
+  display: flex;
+  padding: 0px;
+  flex: 1 1 0%;
+  -webkit-box-align: center;
+  align-items: center;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+}
+.modal-completed .cVnyRH img {
+  margin-right: 12px;
+  width: 40px;
+}
+.modal-completed .fVmVPE .tooltip {
+  margin-left: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .modal-completed .ia-DxTe {
+    margin: 0px auto;
+    max-width: 420px;
+    border-radius: 10px;
+    max-height: 100%;
+    display: table;
+    flex-direction: row;
+  }
+}

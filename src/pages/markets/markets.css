@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+.markets {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.markets .titleBlank {
+  margin-top: 40px;
+
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.markets .filter {
+  margin-top: 30px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.markets .network-select-box {
+  min-width: 150px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  padding: 7.5px 12px;
+
+  background: transparent;
+  border: 1px solid #202649;
+  border-radius: 5px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.markets .date-select-box {
+  width: 80px;
+
+  display: flex;
+  gap: 5px;
+
+  padding: 7.5px 15px;
+
+  background: transparent;
+  border: 1px solid #202649;
+  border-radius: 5px;
+
+  font-size: 16px;
+
+  background-image: url("../../assets/img/gray-down.png");
+  background-position: calc(100% - 10px) center;
+  background-repeat: no-repeat;
+  padding-right: 40px;
+
+  cursor: pointer;
+}
+
+.markets .date-select-dropdown {
+  position: absolute;
+
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+
+  margin-top: 10px;
+  padding: 16px 17px 16px 14px;
+
+  background: linear-gradient(0deg, #0c0c12, #0c0c12),
+    linear-gradient(0deg, #202649, #202649);
+
+  border: 1px solid #202649;
+  border-radius: 5px;
+
+  box-shadow: 0px 5px 7px 0px #00000066;
+
+  cursor: pointer;
+}
+
+.markets .date-select-dropdown.open {
+  display: flex;
+}
+
+.markets .date-select-dropdown-option {
+  min-width: 80px;
+  padding: 10px;
+
+  text-align: center;
+  border: 1px solid #20264900;
+}
+
+.markets .date-select-dropdown-option.active,
+.markets .date-select-dropdown-option:hover {
+  border: 1px solid #202649;
+  border-radius: 1000px;
+}
+
+.markets input {
+  padding: 7px 15px;
+
+  background: transparent;
+  border: 1px solid #202649;
+  border-radius: 5px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+
+  background-image: url("../../assets/img/search.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+.markets table {
+  width: 100%;
+  margin-top: 20px;
+
+  background: linear-gradient(268.77deg, #0c0c12 7.23%, #23233d 109.76%),
+    linear-gradient(0deg, #202649, #202649);
+
+  border-spacing: 0;
+  border-collapse: separate;
+  border-radius: 5px;
+  border: 1px solid #202649;
+}
+
+.markets th {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+
+  color: #77777a;
+
+  padding: 10px;
+}
+
+.markets td {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+
+  padding: 10px;
+}
+
+.markets tr td:first-child {
+  color: #77777a;
+}
+
+.markets tr td .token-symbol {
+  color: #77777a;
+}
+
+.markets tr td .token-change-up {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  gap: 5px;
+  color: #28cf7f;
+}
+
+.markets tr td .token-change-down {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  gap: 5px;
+  color: #e85516;
+}

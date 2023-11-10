@@ -1,0 +1,250 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+:focus-visible {
+  outline: none;
+}
+@font-face {
+  font-family: Inter;
+  src: url(/public/assets/fonts/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Zen Dots;
+  src: url(/public/assets/fonts/ZenDots-Regular.ttf);
+}
+body {
+  margin: 0;
+  font-family: Inter;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  color: #fff;
+  background: #0c0c12;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: transparent;
+}
+
+button:not([disabled]) {
+  cursor: pointer;
+}
+
+button:disabled {
+  pointer-events: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+.MuiPaper-root {
+  background-color: inherit !important;
+  color: #fff !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+svg.wallet-svg {
+  margin-right: 5px;
+}
+
+.wallet-button {
+  min-width: 180px;
+}
+.network-button,
+.wallet-button {
+  background-color: var(--transparent);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 3px;
+  color: var(--white);
+  padding: 0 15px 0px 15px;
+  height: 35px;
+  align-items: center;
+  display: flex;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.wallet-button svg {
+  fill: white;
+  color: white;
+}
+
+.wallet-menu-dropdown {
+  position: absolute;
+  display: grid;
+  top: 50px;
+  z-index: 10;
+  right: 75px;
+  width: 170px;
+  z-index: 7;
+  background-color: rgb(41, 41, 44);
+  border: 1px solid #202649;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 50%) 0px 2px 44px;
+}
+
+.wallet-menu-item {
+  background-color: #ffffff00;
+  color: var(--text);
+  border: 0;
+  outline: none;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  padding: 10px 5px 10px 5px;
+  cursor: pointer;
+}
+
+.wallet-menu-item:last-child {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.wallet-menu-item:first-child {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.wallet-menu-item:hover {
+  opacity: 0.8;
+}
+
+.wallet-menu-item svg {
+  margin-right: 10px;
+}
+.network-select {
+  position: absolute;
+  display: grid;
+  top: 50px;
+  z-index: 10;
+  right: 275px;
+  width: 185px;
+  padding: 5px;
+  background-color: rgb(41, 41, 44);
+  border: 1px solid #202649;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 50%) 0px 2px 44px;
+}
+
+.network-select .wallet-menu-item {
+  width: 100%;
+}
+
+.wallet {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.network-button {
+  width: 220px;
+}
+.tpslfield {
+  background: #1a1818;
+  border: 1px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+}
+.wallet-choose {
+  background-color: rgb(41, 41, 44);
+  width: 320px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  border-radius: 5px;
+}
+.wallet-box-header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 25px;
+  margin: 15px;
+}
+button.close-wallet-box {
+  background-color: var(--transparent);
+  border: 0px;
+  color: var(--text);
+  height: fit-content;
+  cursor: pointer;
+}
+.devider {
+  border-bottom: 1px solid var(--text);
+}
+.wallet-box-menu {
+  display: grid;
+  margin: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .wallet-choose {
+    width: 300px;
+  }
+  .network-button,
+  .wallet-button,
+  .wallet-menu-dropdown {
+    padding: 0 5px 0px 5px;
+  }
+  .wallet-menu-dropdown {
+    right: 65px;
+    width: 160px;
+  }
+  .wallet-button {
+    min-width: 148px;
+  }
+  .network-select {
+    right: 240px;
+  }
+}
+
+.contentsBlank {
+  opacity: 0.5;
+}
+
+.titleBlank {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wholediv {
+  min-width: 300px;
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+}

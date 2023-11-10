@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+.liquidity {
+  font-family: "Space Grotesk", sans-serif;
+  max-width: 850px;
+}
+
+.liquidity button {
+  min-width: 135px;
+  min-height: 38px;
+
+  border-radius: 5px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20.42px;
+
+  color: black;
+  background: linear-gradient(91.96deg, #7be1be 24.05%, #4d8df3 95.41%);
+}
+
+.liquidity-panel {
+  margin-top: 30px;
+  padding: 20px;
+
+  border-radius: 5px;
+  border: 1px solid #202649;
+  background: linear-gradient(268.77deg, #0c0c12 7.23%, #23233d 109.76%),
+    linear-gradient(0deg, #202649, #202649);
+}
+
+.liquidity-panel .panel-header h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.choose-token {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 15px;
+  padding: 5px;
+
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  cursor: pointer;
+
+  border-radius: 16px;
+  background: url(../../assets/img/black-down.png) calc(100% - 15px) center,
+    linear-gradient(91.96deg, #7be1be 24.05%, #4d8df3 95.41%);
+  background-repeat: no-repeat;
+}
+
+.amount-panel {
+  padding: 15px 15px;
+
+  border: 1px solid #202649;
+  border-radius: 5px;
+  background: linear-gradient(268.77deg, #0c0c12 7.23%, #23233d 109.76%),
+    linear-gradient(0deg, #202649, #202649);
+}
+
+.amount-panel input {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.amount-panel .select-token {
+  width: 100px;
+  height: 31px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  padding: 2px 10px;
+  cursor: pointer;
+
+  border-radius: 100px;
+  border: 1px solid #202649;
+  background: url(../../assets/img/gray-down.png) calc(100% - 10px) center;
+  background-repeat: no-repeat;
+}
+
+.amount-panel p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.amount-panel .btn-max {
+  width: 10px;
+  min-width: 50px;
+  min-height: fit-content;
+
+  padding: 2px;
+
+  color: white;
+
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  border: 1px solid #202649;
+  border-radius: 1000px;
+  background: #202649;
+}
+
+.date-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 15px;
+
+  border: 1px solid #202649;
+  border-radius: 5px;
+  background: linear-gradient(268.77deg, #0c0c12 7.23%, #23233d 109.76%),
+    linear-gradient(0deg, #202649, #202649);
+}
+
+.date-panel p:first-child {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.date-panel p:last-child {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.date-panel .btn-calendar {
+  border-radius: 50px;
+  min-width: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.date-panel .period-select-dropdown {
+  position: absolute;
+
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+
+  margin-top: 10px;
+  padding: 16px 17px 16px 14px;
+
+  background: linear-gradient(0deg, #0c0c12, #0c0c12),
+    linear-gradient(0deg, #202649, #202649);
+
+  border: 1px solid #202649;
+  border-radius: 5px;
+
+  box-shadow: 0px 5px 7px 0px #00000066;
+
+  cursor: pointer;
+}
+
+.date-panel .period-select-dropdown.open {
+  display: flex;
+}
+
+.date-panel .period-select-dropdown-option {
+  min-width: 80px;
+  padding: 10px;
+
+  text-align: center;
+  border: 1px solid #20264900;
+}
+
+.date-panel .period-select-dropdown-option.active,
+.date-panel .period-select-dropdown-option:hover {
+  border: 1px solid #202649;
+  border-radius: 1000px;
+}
+
+.tip-panel {
+  padding: 10px 15px;
+
+  color: #e85516;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  border-radius: 5px;
+  border: 1px solid #e85516;
+}
+
+.info-panel {
+  gap: 12px;
+
+  margin-top: 10px;
+  padding: 20px;
+
+  border: 1px solid #202649;
+  border-radius: 5px;
+
+  background: linear-gradient(0deg, #0c0c12, #0c0c12),
+    linear-gradient(0deg, #202649, #202649);
+}
+
+.info-panel {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: center;
+}

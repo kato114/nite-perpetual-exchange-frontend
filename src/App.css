@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.ehzVWJ {
+  cursor: pointer;
+  display: flex;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.toastbody {
+  display: flex;
+  opacity: 0.7;
+}
+.Toastify__toast {
+  background-color: rgb(72 72 72);
+}
+.toastclass {
+  padding: 10px;
+}
+.Toastify__toast-body {
+}
+.Toastify__toast-container {
+  font-size: 14px;
+}
+
+.Toastify__progress-bar {
+  height: 2px;
+}
+
+.Toastify__toast-icon {
+  width: 40px;
+}
+.font-zendots {
+  font-family: Zen Dots;
+}
+.font-space {
+  font-family: "Space Grotesk", sans-serif;
+}

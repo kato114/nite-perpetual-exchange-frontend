@@ -1,0 +1,52 @@
+.hVRUIY {
+  grid-area: tradingView / tradingView / tradingView / tradingView;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  user-select: auto;
+  width: 100%;
+  height: 450px;
+  min-height: 200px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  display: contents;
+}
+.hHBTTS {
+  /* height: calc(100% - 5px); */
+}
+.jhjWGE {
+  background-color: #0c0c12;
+  height: 100%;
+}
+.jAsbcL {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.jhjWGE .container {
+  flex: 1 1 0%;
+}
+.gtdBQQ {
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease-in-out 0s;
+  position: relative;
+}
+.gtdBQQ::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  height: 1px;
+  width: 100%;
+  transform: translateY(-50%);
+  background-color: #202649;
+}
+
+@media screen and (min-width: 992px) {
+  .hVRUIY {
+    width: 100%;
+  }
+}

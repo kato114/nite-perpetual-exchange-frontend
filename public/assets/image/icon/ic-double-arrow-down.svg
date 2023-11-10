@@ -1,0 +1,18 @@
+<svg id="ejYK5DXpoZe1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style>
+        #ejYK5DXpoZe7 {animation: ejYK5DXpoZe7_c_o 2000ms linear infinite normal forwards}@keyframes ejYK5DXpoZe7_c_o { 0% {opacity: 0.3} 50% {opacity: 1} 100% {opacity: 0.3}} #ejYK5DXpoZe8 {animation: ejYK5DXpoZe8_c_o 2000ms linear infinite normal forwards}@keyframes ejYK5DXpoZe8_c_o { 0% {opacity: 1} 50% {opacity: 0.3} 100% {opacity: 1}}
+    </style>
+    <g>
+        <g transform="translate(-1708-349)">
+            <g transform="translate(1519 56)">
+                <g transform="translate(189 293)">
+                    <g transform="translate(8.5 7)">
+                        <path id="ejYK5DXpoZe7" d="M0.609663,6.890771h5.780901c.538043,0,.811093.63548.435686,1.014013L3.936098,10.819376c-.239031.240832-.633237.240832-.87197,0L0.173678,7.904784c-.375407-.378533-.102058-1.014013.435985-1.014013" opacity="0.3" fill="#ababab" fill-rule="evenodd" />
+                        <path id="ejYK5DXpoZe8" d="M6.390564,0c.538043,0,.811093.635479.435686,1.014013L3.936098,3.928605c-.239031.240832-.633237.240832-.87197,0L0.173678,1.014013C-0.201729,0.635479,0.07162,0,0.609663,0h5.780901Z" fill="#ababab" fill-rule="evenodd" />
+                    </g>
+                    <rect width="23" height="23" rx="8" ry="8" transform="translate(.5 0.5)" fill="none" fill-rule="evenodd" stroke="#363636" />
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
